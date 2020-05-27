@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Running Distance Tracker</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+    <div class="row">
+      <div class="col-12 col">
+        <h1>RUN!</h1>
+      </div>
+    </div>
+    <br />
+    <div class="row">
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <div id="time">
+          <span id ="min"></span><span id="sec"></span>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-12 col-xs-12">
+        <div id="distance"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col">
+        <div class="buttons text-center">
+          <button id="start">Start</button>
+          <button id="stop">Stop</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script
+      type="text/javascript"
+      src="https://geographiclib.sourceforge.io/scripts/geographiclib.js"
+    ></script>
+    <script src="./scriptiffic.js"></script>
+  </body>
+</html>

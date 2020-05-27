@@ -1,0 +1,35 @@
+#start {
+    
+    color: green;
+    background-color: black;
+  }
+  
+  #stop{
+    
+    color: red;
+    background-color: black;
+  }
+
+  body {
+    text-align: center;
+    background: url("https://cdn.pixabay.com/photo/2017/07/02/19/24/dumbbells-2465478_1280.jpg");
+  }
+
+  div .buttons {
+    text-align: center;
+    border-width: 50px;
+    border-style: double;
+    border: .5rem;
+  }
+  div .col {
+    background-color: antiquewhite;
+    border-style: double;
+    border-width: .5rem;
+  }
+  
+  div#time {
+    width: 50%;
+  }
+  div#distance {
+    width:50%;
+  }
