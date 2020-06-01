@@ -11,6 +11,13 @@ This application is mainly for runners, or those who take long walks. It's purpo
 
 I'm developing this primarily for my own use, to use while jogging, and to challenge myself as a developer. I'm sure there are applications currently available that do the exact same thing I'm trying to accomplish. But nothing's better than doing it yourself.
 
+To be added:
+-User's current distance ran, continuously updated;
+-Mapping feature allowing user to have a live view of the route they've run.
+-Weather projections for time the user plans to run.
+Further down the line:
+-Storage of the user's past running distances, and their routes (if they differ).
+-Ability to share distances and routes on social media.
 
 If you have any suggestions or advice, open an issue in this repo.
 
